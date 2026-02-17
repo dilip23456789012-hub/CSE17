@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>
+document
+</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Development Masterclass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4e73df, #1cc88a);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 85%;
+            margin: 30px auto;
+        }
+
+        .video-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        ifame {
+            width: 100%;
+            max-width: 700px;
+            height: 400px;
+            border-radius: 10px;
+        }
+
+                footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2e59d9;
+            color: white;
+            margin-top: 40px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Web Development Masterclass</h1>
+        <p>Learn HTML, CSS & JavaScript from Scratch</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Modules</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Video Section -->
+        <section class="video-section">
+            <h2>Course Introduction</h2>
+            <br>
+            <iframe src="https://www.youtube.com/embed/UB1O30fR-EE" 
+                    title="HTML Tutorial for Beginners" 
+                    frameborder="0" 
+                    allowfullscreen>
+            </iframe>
+        </section>
+
+    </div>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
